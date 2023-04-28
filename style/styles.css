@@ -1,0 +1,280 @@
+/* null */
+ *{
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+:focus,
+:active {
+	outline: none;
+}
+a:focus,
+a:active {
+	 outline: none;
+}
+html,
+body {
+	height: 100%;
+	width: 100%;
+}
+body {
+	line-height: 1;
+	text-rendering: optimizeLegibility;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+input,
+button,
+textarea {
+	font-size: inherit;
+}
+button {
+	cursor: pointer;
+	color: inherit;
+	background-color: transparent;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* header */
+.header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.container{
+    margin: 0 auto;
+}
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.header__text {
+    color: white;
+}
+.header__nav {
+    display: flex;
+    align-items: center;
+}
+.header__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.header__logo {
+    color: white;
+
+    text-transform: uppercase;
+}
+.header__btn {
+    color: white;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 100;
+    font-style: normal;
+    display: block;
+    border: 1px solid white;
+    padding: 6px 32px;
+    padding-bottom: 7px;
+   background-color: c;
+    cursor: pointer;
+}
+.icon-menu{
+    width: 30px;
+    height: 18px;
+    border: 0px;
+    cursor: pointer;
+    background-color: inherit;
+}
+.header__menu {
+    display: none;
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    background-color:rgb(0, 153, 255);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.active{
+
+    display: none;
+}
+.header__item {
+}
+.header__link {
+}
+/* hero */
+.hero{
+    padding-top: 550px;
+    margin-left: 152px;
+    color: white;
+}
+.hero__title{
+    font-size: 64px;
+    line-height: 77px;
+    font-weight: 300;
+    font-style: normal;
+}
+.hero__text{
+    padding-top: 42px;
+}
+/* video */
+.section-video{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#myVideo{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+/* form */
+.form-feedback {
+    margin-top: 250px;
+    padding-bottom: 150px;
+}
+.container {
+}
+.form-feedback__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-feedback__form {
+}
+.form__nput-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.form__block{
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+
+    width: 650px;
+    padding: 25px;
+    background-color: rgb(0, 183, 255);
+}
+.img__cont {
+    width: 650px;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-bottom: 25px;
+}
+.form__cont {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.form__lable {
+    margin-bottom: 5px;
+    color: white;
+}
+.--first {
+    padding: 15px;
+    width: 515px;
+    height: 50px;
+}
+.form__input{
+    width: 250px;
+    padding: 15px;
+}
+.input__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+.input__block {
+}
+.select__wrapper {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 15px;
+}
+.select__hour{
+    width: 250px;
+    height: 50px;
+    border-radius: 2px;
+    padding: 15px;
+
+}
+.select {
+    width: 250px;
+    height: 50px;
+    padding: 15px;
+    border-radius: 5px;
+    
+}
+.form-feedback__btn {
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    color: black;
+    background-color: rgb(0, 110, 255);
+    color: white;
+}

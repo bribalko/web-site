@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic" rel="stylesheet" />
+</head>
+<body>
+    <div class="wrapper">
+        <div class="wrapper__hero">
+            <header class="header">
+                <div class="container">
+                    <div class="header__wrapper">
+                        <p class="header__text">Grand Luxe</p>
+                        <nav class="header__nav">
+                            <ul class="header__list">
+                                <li class="header__item">
+                                    <a href="./index.html" class="header__logo">aguas de ibiza</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <ul class="header__list">
+                            <li class="header__item">
+                                <a href="#" class="header__btn">Reservar</a>
+                            </li>
+                            <li class="header__item">
+                                <button class="icon-menu">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="#fff"  viewBox="0 0 30 30" width="30px" height="30px"><path d="M 3 7 A 1.0001 1.0001 0 1 0 3 9 L 27 9 A 1.0001 1.0001 0 1 0 27 7 L 3 7 z M 3 14 A 1.0001 1.0001 0 1 0 3 16 L 27 16 A 1.0001 1.0001 0 1 0 27 14 L 3 14 z M 3 21 A 1.0001 1.0001 0 1 0 3 23 L 27 23 A 1.0001 1.0001 0 1 0 27 21 L 3 21 z"/></svg>
+                                </button>
+                            </li>
+                        </ul>
+                       
+                    </div>
+                </div>
+              
+                <!-- hero -->
+                <section class="hero">
+                    <div class="container">
+                        <div class="hero__wrapper">
+                          <div class="hero__about">
+                            <h1 class="hero__title">Maymanta: Origen Perú.
+                                </h1>
+                                <p class="hero__text">Descubre más</p>
+                          </div>
+                        </div>
+                    </div>
+                </section>
+            </header>
+            <section class="section-video">
+                <video autoplay muted loop id="myVideo">
+                    <source src="../site-new/video/video-hero.MP4" type="video/mp4">
+                  </video>
+            </section>
+        </div>
+        <div class="wrapper__main">
+            <main>
+                <section class="form-feedback">
+                    <div class="container">
+                        <div class="form-feedback__wrapper">
+                            <form action="" class="form-feedback__form form">
+                                <div class="img__cont"><img src="./img/form-img.png" width="600" alt="photo"></div>
+                                <div class="form__cont">
+                                   <div class="input__wrapper">
+                                       <div class="form__block">
+                                            <label for="" class="form__lable">Destination</label>
+                                            <input type="text" class="--first" placeholder="Search city or shop name">
+                                       </div>
+                                   </div>
+                                        <div class="input__wrapper">
+                                           <div class="form__block">
+                                                <label for=""  class="form__lable">Pick-up date</label>
+                                                <input type="date"  class="form__input">
+                                           </div>
+                                                <div class="form__block">
+                                                    <label for=""  class="form__lable">Hour</label>
+                                                    <select name="form[]" class="select__hour">
+                                                        <option value="1" selected>10:00</option>
+                                                        <option value="2">10:00</option>
+                                                        <option value="3">10:00</option>
+                                                        <option value="4">10:00</option>
+                                                    </select>
+                                                </div>
+                                        </div>
+                                        <div class="input__wrapper">
+                                          <div class="form__block">
+                                                    <label for=""  class="form__lable">Return date</label>
+                                                    <input type="date" class="form__input">
+                                            </div>
+                                            <div class="form__block">
+                                                <label for=""  class="form__lable">Hour</label>
+                                                        <select name="form[]" class="select__hour">
+                                                            <option value="1" selected>10:00</option>
+                                                            <option value="2">10:00</option>
+                                                            <option value="3">10:00</option>
+                                                            <option value="4">10:00</option>
+                                                        </select>
+                                            </div>
+                                          </div>
+                                        <div class="input__wrapper">
+                                            <div class="form__block">
+                                                <label for=""  class="form__lable">Hour</label>
+                                                <select name="form[]" class="select">
+                                                    <option value="1" selected>Пункт №1</option>
+                                                    <option value="2">Пункт №2</option>
+                                                    <option value="3">Пункт №3</option>
+                                                    <option value="4">Пункт №4</option>
+                                                </select>
+                                            </div>
+                                            <div class="form__block" >
+                                                <button class="form-feedback__btn">Search</button>
+                                            </div>
+                                        </div>
+                                    </div>  
+                                </div>
+                            </form>
+                        </div>
+                </section>
+            </main>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>
